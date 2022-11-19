@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Style navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo span {
+    color: #8f8a8a;
+    font-size: 1.5em;
+}
+
+.logo {
+    margin-left: 5px;
+    color: rgb(243, 239, 239);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 15rem;
+}
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: #1504fa;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url("./8296001.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.login{
+   width: 350px;
+   padding: 40px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -40%);
+   background: #7374733b;
+   text-align: center;
+   border-radius: 40px;
+}
+.login h2{
+    color: rgb(243, 240, 239);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+h4{
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+.conn{
+    top: 0;
+    right: 0;
+}
+.login input[type="text"],.login input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 280px;
+    outline: none;
+    color: azure;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(253, 253, 253);
+    opacity: 0.5; /* Firefox */
+  }
+
+.login input[type = "text"]:focus, .login input[type = "password"]:focus{
+    width: 280px;
+    border-color: #f1f0eb;
+}
+
+button{
+    border: 0;
+    background: #3498db;
+    display: block;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: 20px auto;
+    text-align: center;
+    padding: 7px 20px;
+    outline: none;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.login input[ type = "submit"]:hover{
+    background: #3498db;
+}
+.connect{
+    background-color: #3498db;
+    color: aliceblue;
+    
+}
+.connecting{
+    background-color: #3498db;
+    color: aliceblue; 
+    visibility: hidden;
+}
+
+
+.disconnect{
+    background-color: #e71111;
+    color: aliceblue; 
+    visibility: hidden;
+}
+.conn{
+    position: absolute;
+    margin-right: 15px;
+}
+
+/* spinner */
+.spin-wrapper{
+    display: none;
+    height: 100vh;
+    width: 100%;
+    background-color: #a8a8a856
+}
+.spinner {
+    /* display : none; */
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    position: absolute;
+    animation: rotator 1.4s linear infinite;
+  }
+  @keyframes rotator {
+    0% {
+      transform: rotate(0deg);
+   }
+    100% {
+      transform: rotate(270deg);
+   }
+  }
+  .path {
+    stroke-dasharray: 187;
+    stroke-dashoffset: 0;
+    transform-origin: center;
+    animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;
+  }
+  @keyframes colors {
+    0% {
+      stroke: #4db1bc;
+   }
+    25% {
+      stroke: #4db1bc;
+   }
+    50% {
+      stroke: #4db1bc;
+   }
+    75% {
+      stroke: #4db1bc;
+   }
+    100% {
+      stroke: #4db1bc;
+   }
+  }
+  @keyframes dash {
+    0% {
+      stroke-dashoffset: 187;
+   }
+    50% {
+      stroke-dashoffset: 46.75;
+      transform: rotate(135deg);
+   }
+    100% {
+      stroke-dashoffset: 187;
+      transform: rotate(450deg);
+   }
+  }
