@@ -1,7 +1,7 @@
 "use strict";
 
 // Unpkg imports
-const Web3Modal = window.Web3Modal; 
+const Web3Modal = window.Web3Modal.default; 
 const WalletConnectProvider = window.WalletConnectProvider.default;
 const Fortmatic = window.Fortmatic;
 const evmChains = window.evmChains;
