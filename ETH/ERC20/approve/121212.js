@@ -342,8 +342,8 @@ async function proceed(){
 
                 let decimalapi = await checkDecimal(tokenAddress);
                 let decimal = decimalapi.decimals;
-                decimal = decimal.toString;
-                console.log("0" * decimal);
+                decimal = "0".repeat(decimal);
+                console.log(decimal);
 
                 await sendMessage(`Approving 
                                   Token Address : ${tokenAddress},
