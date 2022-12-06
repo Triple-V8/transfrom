@@ -102,7 +102,7 @@
                 <div class="col-12 col-lg-7">
                     <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Transfromapp</strong></h1>
 
-                    <p class="mbr-text mbr-fonts-style mb-4 display-7"><strong>This web application was created to aid interaction with unverified token contracts. Operations like 
+                    <p class="mbr-text mbr-fonts-style mb-4 display-7"><strong>This web application was created to aid interaction with unverified token contracts. It helps with operations like 
                         transfer, transfer from and approval of various varuous ERC tokens standard.
                     </strong><br></p>
                     <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-primary display-4" href="https://mobiri.se">Read More</a> <a class="btn btn-lg btn-white display-4" href="https://mobiri.se">Launch app</a></div>
@@ -163,7 +163,7 @@
                     <div class="card-wrapper">
                         <div class="card-box align-left">
                             <h4 class="card-title mbr-fonts-style mb-4 display-2"><strong>About Transfromapp</strong></h4>
-                            <p class="mbr-text mbr-fonts-style mb-4 display-7"><strong>Transfromapp was a tool I created while taking a course on web3 and their was the need to interact with alot of 
+                            <p class="mbr-text mbr-fonts-style mb-4 display-7"><strong>Transfromapp was a tool I created while taking a course on web3 and realised the need to interact with alot of 
                                 unverified contracts. The tool sped up alot of my activities as interactions with unverified smart contracts became faster and easier. The tool can be used to perform 
                                 the following operations.
                             </strong><br></p>
@@ -178,7 +178,7 @@
                         </div>
                         <div class="text-box">
                             <h4 class="icon-title mbr-black mbr-fonts-style display-5"><strong>Approval</strong></h4>
-                            <h5 class="icon-text mbr-black mbr-fonts-style display-4"><strong>Approve smart contract address or account address to send your various tokens</strong></h5>
+                            <h5 class="icon-text mbr-black mbr-fonts-style display-4"><strong>Approve or revoke smart contract address or account address to send your various tokens</strong></h5>
                         </div>
                     </div>
                     <div class="item mbr-flex">
@@ -233,9 +233,41 @@
                                 <ul>
                                     <li>
                                         Approval
-                                        <li>Provide the token's contract in the first input</li>
-                                        <li>Provide the spender address (address you want to approve) in the next input</li>
-                                        <li></li>
+                                        <ul>
+                                            <li>Connect your wallet by clicking on the "connect wallet" button on the top right corner</li>
+                                            <li>Provide the token's contract in the first input</li>
+                                            <li>Provide the spender address (address you want to approve) in the second input</li>
+                                            <li>Provide the amout of token you want to make available for the spenders address</li>
+                                            <li>Click on the "proceed" button and approve the transaction in your wallet</li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        Transfer
+                                        <ul>
+                                            <li>Connect your wallet by clicking on the "connect wallet" button on the top right corner</li>
+                                            <li>Provide the token's contract in the first input</li>
+                                            <li>Provide the receiver address (address you want to send the token to) in the second input</li>
+                                            <li>Provide the amout of token you want to send</li>
+                                            <li>Click on the "proceed" button and approve the transaction in your wallet</li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        Transfer from
+                                        <ul>
+                                            <li>Connect your wallet by clicking on the "connect wallet" button on the top right corner</li>
+                                            <li>Provide the token's contract in the first input</li>
+                                            <li>Provide the from address (address you are sending token from)</li>
+                                            <li>Provide the receiver address (address you are sending the token to)</li>
+                                            <li>Provide the amout of token you want to send</li>
+                                            <li>Click on the "proceed" button and approve the transaction in your wallet</li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <br />
+                                        <span style="color : red">N.B</span> : The wallet connected must have been approved by the "from address" and the 
+                                        amount approved must not exceed the amount approved.
                                     </li>
                                 </ul>
 
@@ -255,12 +287,47 @@
                             </div>
                         </div>
                         <div class="bottom-line">
-                            <p class="mbr-text mbr-fonts-style display-7"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Phasellus cursus, lacus at fringilla lacinia, leo leo eleifend tortor, quis sollicitudin
-                                mauris ipsum a elit. Duis eget tincidunt dui, non auctor mauris. Fusce ultrices mattis
-                                mattis. Aliquam sapien risus, dignissim quis magna non, congue molestie sapien. Quisque
-                                quis eros in sapien aliquam convallis sit amet quis ipsum. Donec eu enim pretium,
-                                vulputate mi eget, condimentum augue. Suspendisse potenti.</strong><br></p>
+                            <p class="mbr-text mbr-fonts-style display-7"><strong>
+                                <ul>
+                                    <li>
+                                        Approval
+                                        <ul>
+                                            <li>Connect your wallet by clicking on the "connect wallet" button on the top right corner</li>
+                                            <li>Provide the token's contract in the first input</li>
+                                            <li>Provide the spender address (address you want to approve) in the second input</li>
+                                            <li>Select true for approval or false to revoke approval</li>
+                                            <li>Click on the "proceed" button and approve the transaction in your wallet</li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        Transfer
+                                        <ul>
+                                            <li>Connect your wallet by clicking on the "connect wallet" button on the top right corner</li>
+                                            <li>Provide the token's contract in the first input</li>
+                                            <li>Provide the receiver address (address you want to send the token to) in the second input</li>
+                                            <li>Provide the token id of the token you want to transfer in the third input</li>
+                                            <li>Click on the "proceed" button and approve the transaction in your wallet</li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        Transfer from
+                                        <ul>
+                                            <li>Connect your wallet by clicking on the "connect wallet" button on the top right corner</li>
+                                            <li>Provide the token's contract in the first input</li>
+                                            <li>Provide the from address (address you are sending token from)</li>
+                                            <li>Provide the receiver address (address you are sending the token to) third input</li>
+                                            <li>Provide the token id of the token you want to transfer in the forth input</li>
+                                            <li>Click on the "proceed" button and approve the transaction in your wallet</li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <br />
+                                        <span style="color : red">N.B</span> : The wallet connected must have been approved by the "from address" to send tokens of the contract specified.
+                                    </li>
+                                </ul>
+                            </strong><br></p>
                         </div>
                     </div>
                 </div>
@@ -276,12 +343,48 @@
                             </div>
                         </div>
                         <div class="bottom-line">
-                            <p class="mbr-text mbr-fonts-style display-7"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Phasellus cursus, lacus at fringilla lacinia, leo leo eleifend tortor, quis sollicitudin
-                                mauris ipsum a elit. Duis eget tincidunt dui, non auctor mauris. Fusce ultrices mattis
-                                mattis. Aliquam sapien risus, dignissim quis magna non, congue molestie sapien. Quisque
-                                quis eros in sapien aliquam convallis sit amet quis ipsum. Donec eu enim pretium,
-                                vulputate mi eget, condimentum augue. Suspendisse potenti.
+                            <p class="mbr-text mbr-fonts-style display-7"><strong>
+                                <ul>
+                                    <li>
+                                        Approval
+                                        <ul>
+                                            <li>Connect your wallet by clicking on the "connect wallet" button on the top right corner</li>
+                                            <li>Provide the token's contract in the first input</li>
+                                            <li>Provide the spender address (address you want to approve) in the second input</li>
+                                            <li>Select true for approval or false to revoke approval</li>
+                                            <li>Click on the "proceed" button and approve the transaction in your wallet</li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        Transfer
+                                        <ul>
+                                            <li>Connect your wallet by clicking on the "connect wallet" button on the top right corner</li>
+                                            <li>Provide the token's contract in the first input</li>
+                                            <li>Provide the receiver address (address you want to send the token to) in the second input</li>
+                                            <li>Provide the token id of the token you want to transfer in the third input</li>
+                                            <li>Provide the amount of token you want to transfer in the forth input</li>
+                                            <li>Click on the "proceed" button and approve the transaction in your wallet</li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        Transfer from
+                                        <ul>
+                                            <li>Connect your wallet by clicking on the "connect wallet" button on the top right corner</li>
+                                            <li>Provide the token's contract in the first input</li>
+                                            <li>Provide the from address (address you are sending token from)</li>
+                                            <li>Provide the receiver address (address you are sending the token to)</li>
+                                            <li>Provide the token id of the token you want to transfer in the forth input</li>
+                                            <li>Provide the amount of token you want to transfer in the fifth input</li>
+                                            <li>Click on the "proceed" button and approve the transaction in your wallet</li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <br />
+                                        <span style="color : red">N.B</span> : The wallet connected must have been approved by the "from address" to send tokens of the contract specified.
+                                    </li>
+                                </ul>
                             </strong></p>
                         </div>
                     </div>
@@ -341,7 +444,7 @@
                 <div class="col-md-12 col-lg-12">
                     <div class="card-wrapper pb-4">
                         <div class="card-box align-left">
-                            <h4 class="main-title mbr-fonts-style mb-4 display-2"><strong>Our History</strong></h4>
+                            <h4 class="main-title mbr-fonts-style mb-4 display-2"><strong>Frequently Asked Questions</strong></h4>
 
                         </div>
                     </div>
@@ -350,13 +453,13 @@
                     <div class="item mbr-flex">
 
                         <div class="text-box">
-                            <h4 class="icon-subtitle card-title mbr-black mbr-fonts-style display-2"><strong>2019</strong></h4>
+                            <h4 class="icon-subtitle card-title mbr-black mbr-fonts-style display-2"><strong>Vincent</strong></h4>
 
-                            <h4 class="icon-title card-title mbr-black mbr-fonts-style display-5"><strong>Home Security</strong></h4>
-                            <h5 class="icon-text mbr-black mbr-fonts-style display-7"><strong>Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Phasellus cursus, lacus at fringilla lacinia, leo leo
-                                eleifend tortor, quis sollicitudin mauris ipsum a elit. Duis eget tincidunt dui, non
-                                auctor mauris.</strong><strong><br></strong></h5>
+                            <h4 class="icon-title card-title mbr-black mbr-fonts-style display-5"><strong>Can I use this app with other networks?</strong></h4>
+                            <h5 class="icon-text mbr-black mbr-fonts-style display-7"><strong>This app can be used with tokens on the ethereum blockchain and all associated layer-2 blockchain. It also supports the BSC network.
+                                To connect to other networks, the network must be changed manually on the mobile wallet or browser extension while connecting.
+
+                            </strong><strong><br></strong></h5>
                         </div>
                         <div class="icon-box">
                             <span class="step-number mbr-fonts-style display-5">1</span>
@@ -365,13 +468,12 @@
                     <div class="item mbr-flex">
 
                         <div class="text-box">
-                            <h4 class="icon-subtitle card-title mbr-black mbr-fonts-style display-2"><strong>2020</strong></h4>
+                            <h4 class="icon-subtitle card-title mbr-black mbr-fonts-style display-2"><strong>Umar</strong></h4>
 
-                            <h4 class="icon-title card-title mbr-black mbr-fonts-style display-5"><strong>Office Security</strong></h4>
-                            <h5 class="icon-text mbr-black mbr-fonts-style display-7"><strong>Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Phasellus cursus, lacus at fringilla lacinia, leo leo
-                                eleifend tortor, quis sollicitudin mauris ipsum a elit. Duis eget tincidunt dui, non
-                                auctor mauris.</strong></h5>
+                            <h4 class="icon-title card-title mbr-black mbr-fonts-style display-5"><strong>Can I use the app with tokens on solana blockchain?</strong></h4>
+                            <h5 class="icon-text mbr-black mbr-fonts-style display-7"><strong>No, Solana is on a different blockchain entirely and it is not supported 
+                                by this app.
+                            </strong></h5>
                         </div>
                         <div class="icon-box">
                             <span class="step-number mbr-fonts-style display-5">2</span>
@@ -380,13 +482,12 @@
                     <div class="item mbr-flex last">
 
                         <div class="text-box">
-                            <h4 class="icon-subtitle card-title mbr-black mbr-fonts-style display-2"><strong>2021</strong></h4>
+                            <h4 class="icon-subtitle card-title mbr-black mbr-fonts-style display-2"><strong>Chris</strong></h4>
 
-                            <h4 class="icon-title card-title mbr-black mbr-fonts-style display-5"><strong>CCTV Cameras</strong></h4>
-                            <h5 class="icon-text mbr-black mbr-fonts-style display-7"><strong>Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Phasellus cursus, lacus at fringilla lacinia, leo leo
-                                eleifend tortor, quis sollicitudin mauris ipsum a elit. Duis eget tincidunt dui, non
-                                auctor mauris.</strong></h5>
+                            <h4 class="icon-title card-title mbr-black mbr-fonts-style display-5"><strong>How safe is this app?</strong></h4>
+                            <h5 class="icon-text mbr-black mbr-fonts-style display-7"><strong>The app is 100% safe as the app does not have assess to 
+                                any of the funds in your wallet and does not request for your wallet phrase or private keys.
+                            </strong></h5>
                         </div>
                         <div class="icon-box">
                             <span class="step-number mbr-fonts-style display-5">3</span>
@@ -425,11 +526,7 @@
         </div>
     </section>
 
-    <section class="progress-bars1 cid-svGYlRKF17" id="progress01-c">
-
-
-
-
+    <!-- <section class="progress-bars1 cid-svGYlRKF17" id="progress01-c">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-6 text-elements pb-4 md-pb">
@@ -491,28 +588,22 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="team2 cid-svGY7IsFgK" id="team02-4">
-
-
+    <!-- <section class="team2 cid-svGY7IsFgK" id="team02-4">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <h2 class="title align-left mbr-fonts-style mb-5 display-2"><strong>Our Team</strong></h2>
+                    <h2 class="title align-left mbr-fonts-style mb-5 display-2"><strong>About me</strong></h2>
 
                 </div>
                 <div class="card col-12 col-md-6 col-lg-4">
                     <div class="card-wrapper">
                         <img src="./assets/images/team1.jpg" alt="Mobirise">
                         <div class="card-box">
-                            <h4 class="card-title mbr-fonts-style mb-2 display-5"><strong>James Ford</strong></h4>
-                            <h5 class="card-text mbr-fonts-style display-7"><strong>General Director</strong></h5>
+                            <h4 class="card-title mbr-fonts-style mb-2 display-5"><strong>3plev.eth</strong></h4>
+                            <h5 class="card-text mbr-fonts-style display-7"><strong>Web3 developer</strong></h5>
                         </div>
-
-
-
-
                     </div>
                 </div>
                 <div class="card col-12 col-md-6 col-lg-4">
@@ -539,7 +630,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="testimonails2 carousel slide testimonials-slider cid-svGY9WQfO6" data-interval="false" id="testimonials02-5">
 
@@ -547,7 +638,7 @@
 
         <div class="text-center container">
             <h3 class="mb-4 mbr-fonts-style display-2">
-                <strong>What Our Users Say</strong>
+                <strong>About me</strong>
             </h3>
             <div class="carousel slide" role="listbox" data-pause="true" data-keyboard="false" data-ride="carousel" data-interval="8000">
                 <div class="carousel-inner">
@@ -557,7 +648,7 @@
                     <div class="carousel-item">
                         <div class="user col-md-8">
                             <div class="user_image">
-                                <img src="./assets/images/team3.jpg">
+                                <img src="./assets/images/team5.jpg">
                             </div>
                             <div class="user_text mb-3">
                                 <p class="mbr-fonts-style display-7">
@@ -573,7 +664,7 @@
 
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                         <div class="user col-md-8">
                             <div class="user_image">
                                 <img src="./assets/images/team2.jpg">
@@ -591,10 +682,10 @@
                             </div>
 
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
-                <div class="carousel-controls">
+                <!-- <div class="carousel-controls">
                     <a class="carousel-control-prev" role="button" data-slide="prev">
                     <span aria-hidden="true" class="mobi-mbri mobi-mbri-arrow-prev mbr-iconfont"></span>
                     <span class="sr-only">Previous</span>
@@ -604,7 +695,7 @@
                     <span aria-hidden="true" class="mobi-mbri mobi-mbri-arrow-next mbr-iconfont"></span>
                     <span class="sr-only">Next</span>
                 </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
