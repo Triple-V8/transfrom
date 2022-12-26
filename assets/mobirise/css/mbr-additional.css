@@ -123,11 +123,12 @@ body {
 }
 
 .bg-success {
-    background-color: #35b8fc !important;
+    background-color: rgb(237, 150, 222) !important;
+    
 }
 
 .bg-info {
-    background-color: #47b5ed !important;
+    background-color: rgb(214, 80, 192) !important;
 }
 
 .bg-warning {
@@ -186,8 +187,8 @@ body {
 
 .btn-info,
 .btn-info:active {
-    background-color: #47b5ed !important;
-    border-color: #47b5ed !important;
+    background-color: rgb(214, 80, 192) !important;
+    border-color: rgb(214, 80, 192) !important;
     color: #ffffff !important;
 }
 
@@ -209,8 +210,8 @@ body {
 
 .btn-success,
 .btn-success:active {
-    background-color: #35b8fc !important;
-    border-color: #35b8fc !important;
+    background-color: rgb(237, 150, 222) !important;
+    border-color: rgb(237, 150, 222) !important;
     color: #ffffff !important;
 }
 
@@ -374,7 +375,7 @@ body {
 .btn-info-outline:active {
     background-color: transparent !important;
     border-color: transparent;
-    color: #47b5ed;
+    color: rgb(214, 80, 192);
 }
 
 .btn-info-outline:hover,
@@ -390,15 +391,15 @@ body {
 .btn-info-outline.disabled,
 .btn-info-outline:disabled {
     color: #ffffff !important;
-    background-color: #47b5ed !important;
-    border-color: #47b5ed !important;
+    background-color: rgb(214, 80, 192) !important;
+    border-color: rgb(214, 80, 192) !important;
 }
 
 .btn-success-outline,
 .btn-success-outline:active {
     background-color: transparent !important;
     border-color: transparent;
-    color: #35b8fc;
+    color: rgb(237, 150, 222);
 }
 
 .btn-success-outline:hover,
@@ -414,8 +415,8 @@ body {
 .btn-success-outline.disabled,
 .btn-success-outline:disabled {
     color: #ffffff !important;
-    background-color: #35b8fc !important;
-    border-color: #35b8fc !important;
+    background-color: rgb(237, 150, 222) !important;
+    border-color: rgb(237, 150, 222) !important;
 }
 
 .btn-warning-outline,
@@ -523,11 +524,11 @@ body {
 }
 
 .text-success {
-    color: #35b8fc !important;
+    color: rgb(237, 150, 222) !important;
 }
 
 .text-info {
-    color: #47b5ed !important;
+    color: rgb(214, 80, 192) !important;
 }
 
 .text-warning {
@@ -611,7 +612,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 
 .alert-info {
-    background-color: #47b5ed;
+    background-color: rgb(214, 80, 192);
 }
 
 .alert-warning {
@@ -1030,7 +1031,7 @@ a {
 }
 
 .cid-svGZR3ZApP .iconfont-wrapper {
-    color: #0196e3 !important;
+    color: rgb(214, 80, 192) !important;
     font-size: 1.5rem;
     padding-right: 0.5rem;
 }
@@ -1251,7 +1252,8 @@ a {
 .cid-svGWZHbnpD {
     padding-top: 15rem;
     padding-bottom: 15rem;
-    background-image: url("../../../assets/images/mbr.jpeg");
+    background-image: url("../../../transfromappbg.jpg");
+    /* background-image: url("../../../assets/images/mbr.jpeg"); */
 }
 
 .cid-svGWZHbnpD .mbr-section-title {
@@ -1290,7 +1292,7 @@ a {
 
 .cid-svGYpYabkQ .mbr-iconfont {
     font-size: 4rem;
-    color: #6592e6;
+    color: rgb(214, 80, 192);
     padding: 3.5rem;
     box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
     border-radius: 50%;
@@ -1347,7 +1349,7 @@ a {
 
 .cid-svGY3Q6PT6 .mbr-iconfont {
     font-size: 2rem;
-    color: #0196e3;
+    color: rgb(214, 80, 192);
 }
 
 @media (max-width: 991px) {
@@ -1390,7 +1392,7 @@ a {
 
 .cid-svGY4J6ohy .card-number {
     min-width: fit-content;
-    color: #0196e3;
+    color: rgb(214, 80, 192);
 }
 
 .cid-svGY4J6ohy .card-title {
@@ -1421,7 +1423,7 @@ a {
 
 .cid-svGY4J6ohy .mbr-iconfont {
     font-size: 1.5rem;
-    color: #0196e3;
+    color: rgb(214, 80, 192);
 }
 
 .cid-svGY4J6ohy .card-box {
@@ -1603,7 +1605,7 @@ a {
 
 .cid-svH0ttup6b .mbr-iconfont {
     font-size: 3rem;
-    color: #0196e3;
+    color: rgb(214, 80, 192);
     padding: 2rem;
     border-radius: 50%;
     transition: all 0.3s;
@@ -1745,7 +1747,7 @@ a {
 }
 
 .cid-svGYfOiMwL SPAN {
-    color: #0196e3;
+    color: rgb(214, 80, 192);
 }
 
 .cid-svGYfOiMwL .icon-text {
@@ -2078,7 +2080,7 @@ a {
 
 .cid-svGYbGfssB .mbr-iconfont {
     font-size: 1.8rem;
-    color: #0196e3;
+    color: rgb(214, 80, 192);
     padding: 1.2rem;
     width: fit-content;
     transition: all 0.3s;
@@ -2141,7 +2143,7 @@ a {
 
 .cid-svGYcN3ewh .mbr-iconfont {
     font-size: 1.5rem;
-    color: #0196e3;
+    color: rgb(214, 80, 192);
     padding: 1rem;
     width: fit-content;
     transition: all 0.3s;
@@ -2191,7 +2193,7 @@ a {
 }
 
 .cid-svGYcN3ewh .card-phone {
-    color: #0196e3;
+    color: rgb(214, 80, 192);
 }
 
 .cid-svGYderUVq {
